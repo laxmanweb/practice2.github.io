@@ -1,0 +1,430 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0px;
+ background:rgb(187, 223, 230);
+}
+
+.main-header{
+    background:rgb(41, 243, 41);
+    height:54px;
+    position:relative;
+    position:fixed;
+    top:0px;
+    width:100%;
+    padding:1px;
+
+}
+.main-header-brand{
+padding:2px;
+position:absolute;
+top:14px;
+}
+.main-header-brand a{
+    text-decoration:none;
+    font-weight:bold;
+    font-size:10px;
+
+}
+.main-header-brand a img{
+    height:24px;
+}
+.main-header-items{
+    text-align:right;
+    position:absolute;
+    right:0px;
+    top:0px;
+    padding:1px;
+   
+}
+.main-header-item{
+    list-style:none;
+    display:inline-block;
+    border:2px solid green;
+    border-radius:8px;
+    background:rgb(129, 236, 129);
+
+}
+.main-header-item a{
+    text-decoration:none;
+    padding:2px;
+    font-weight:bold;
+    font-size:10px;
+}
+.main-header-item:hover{
+    background:white;
+    color:black;
+}
+.main-header-item-standard2{
+    background:rgb(228, 36, 78);
+    color:white;
+    border:2px solid rgb(228, 36, 78);
+    border-radius:9px;
+}
+
+
+.one{
+   height:451px;
+   background-image:url("freedom.jpg");
+   background-size:cover;
+   background-position:bottom 0px;
+}
+.one-description{
+    font-weight:bold;
+    font-size:21px;
+    position:absolute;
+    top:351px;
+    color:gold;
+}
+
+
+
+
+
+
+
+.two-description{
+    font-weight:bold;
+    font-size:24px;
+    text-align:center;
+    color:green;
+}
+.two-plans{
+    background:rgb(163, 223, 163);
+    width:100%;
+}
+.two-plans h1{
+    text-align:center;
+}
+.two-plans h2{
+    text-align:center;
+}
+.two-plans h3{
+    text-align:center;
+}
+.two-plans-features{
+    list-style:none;
+    font-weight:bold;
+}
+.two-button{
+text-align:center;
+}
+.two-button button{
+    background:green;
+    color:white;
+    font-weight:bold;;
+    font-size:12px;
+    border-radius:5px;
+    padding:5px;
+}
+.two-button button:hover{
+    border:2px solid green;
+    background:white;
+    color:green;
+}
+
+.btn{
+    text-decoration:none;
+    color:white;
+}
+.btn:hover{
+    color:black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.two-plans-standard{
+    background:rgb(44, 193, 44);
+}
+.two-plans-recom{
+    border:1px solid green;
+    background:white;
+    color:green;
+    font-weight:bold;
+    font-size:19px;
+    box-shadow:4px 4px 4px 4px;
+  padding:5px;
+}
+
+.three{
+    background:rgb(218, 20, 93);
+}
+.three-description{
+    font-wight:bold;
+    font-size:14px;
+    text-align:center;
+    color:white;
+}
+.three-items{
+    text-align:center;
+}
+.three-items-circle{
+    display:inline-block;
+    height:101px;
+    width:101px;
+    border-radius:50%;
+    background:red;
+  
+   
+}
+.three-items-circle-image1{
+    background:url("trusting.png");
+    background-size:cover;
+   
+}
+.three-items-circle-image2{
+    background:url("uptime.jfif");
+    background-size:cover;
+}
+
+.three-items-circle-image3{
+    background:url("lightning.jfif");
+    background-size:cover;
+}
+
+.four{
+    background:black;
+    height:51px;
+}
+.four-items{
+    text-align:center;
+
+}
+.four-item a{
+    color:white;
+    font-weight:bold;
+    font-size:14px;
+    text-decoration:none;
+}
+
+
+
+@media(min-width:640px){
+    .main-header-brand{
+        padding:5px;
+        position:absolute;
+        top:5px;
+        }
+        .main-header-brand a{
+            text-decoration:none;
+            font-weight:bold;
+            font-size:22px;
+        
+        }
+        .main-header-brand a img{
+            height:42px;
+        }
+        .main-header{
+            background:rgb(41, 243, 41);
+            height:68px;
+            position:relative;
+            position:fixed;
+            top:0px;
+            width:100%;
+            padding:5px;
+        
+        }
+        main-header-items{
+            text-align:right;
+            position:absolute;
+            right:0px;
+            top:0px;
+            padding:5px;
+           
+        }
+        .main-header-item{
+            list-style:none;
+            display:inline-block;
+            border:2px solid green;
+            border-radius:8px;
+            background:rgb(129, 236, 129);
+        
+        }
+        .main-header-item a{
+            text-decoration:none;
+            padding:5px;
+            font-weight:bold;
+            font-size:22px;
+        }
+        .main-header-item:hover{
+            background:white;
+            color:black;
+        }
+        .main-header-item-standard2{
+            background:rgb(228, 36, 78);
+            color:white;
+            border:2px solid rgb(228, 36, 78);
+            border-radius:9px;
+        }
+        .one-description{
+            font-weight:bold;
+            font-size:42px;
+            position:absolute;
+            top:351px;
+            color:gold;
+        }
+        
+}
+
+@media(min-width:640px){
+    .two-description{
+        font-weight:bold;
+        font-size:34px;
+        text-align:center;
+        color:green;
+    }
+    .two-plans{
+        background:rgb(163, 223, 163);
+        width:100%;
+        display:inline-block;
+        width:33%;
+    }
+    .two-plans h1{
+        text-align:center;
+    }
+    .two-plans h2{
+        text-align:center;
+    }
+    .two-plans h3{
+        text-align:center;
+    }
+    .two-plans-features{
+        list-style:none;
+        font-weight:bold;
+    }
+    .two-button{
+    text-align:center;
+    }
+    .two-button button{
+        background:green;
+        color:white;
+        font-weight:bold;;
+        font-size:24px;
+        border-radius:5px;
+        padding:5px;
+        margin-bottom:11px;
+    }
+    .two-button button:hover{
+        border:2px solid green;
+        background:white;
+        color:green;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    .two-plans-standard{
+        background:rgb(44, 193, 44);
+    }
+    .two-plans-recom{
+        border:1px solid green;
+        background:white;
+        color:green;
+        font-weight:bold;
+        font-size:19px;
+        box-shadow:4px 4px 4px 4px;
+      padding:5px;
+    }
+    
+}
+@media(min-width:640px){
+    .three{
+        background:rgb(218, 20, 93);
+    }
+    .three-description{
+        font-wight:bold;
+        font-size:24px;
+        text-align:center;
+        color:white;
+    }
+    .three-items{
+        text-align:center;
+        display:inline-block;
+        width:33%;
+    }
+    .three-items-circle{
+        display:inline-block;
+        height:202px
+        width:202px;
+        border-radius:50%;
+        background:red;
+      
+       
+    }
+    .three-items-circle-image1{
+        background:url("trusting.png");
+        background-size:cover;
+       
+    }
+    .three-items-circle-image2{
+        background:url("uptime.jfif");
+        background-size:cover;
+    }
+    
+    .three-items-circle-image3{
+        background:url("lightning.jfif");
+        background-size:cover;
+    }
+    .three-items-description{
+        font-weight:bold;
+        font-size:24px;
+    }
+    
+}
+@media(min-width:640px){
+    .four{
+        background:black;
+        height:81px;
+        padding:1px;
+    }
+    .four-items{
+        text-align:center;
+     
+    
+    }
+    .four-item a{
+        color:white;
+        font-weight:bold;
+        font-size:24px;
+        text-decoration:none;
+    }
+    .four-item{
+        display:inline-block;
+        padding:12px;
+    }
+    
+    
+}

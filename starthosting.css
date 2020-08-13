@@ -1,0 +1,247 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0px;
+ background:rgb(187, 223, 230);
+}
+
+.main-header{
+    background:rgb(41, 243, 41);
+    height:54px;
+    position:relative;
+    position:fixed;
+    top:0px;
+    width:100%;
+    padding:1px;
+
+}
+.main-header-brand{
+padding:2px;
+position:absolute;
+top:14px;
+}
+.main-header-brand a{
+    text-decoration:none;
+    font-weight:bold;
+    font-size:10px;
+
+}
+.main-header-brand a img{
+    height:24px;
+}
+.main-header-items{
+    text-align:right;
+    position:absolute;
+    right:0px;
+    top:0px;
+    padding:1px;
+   
+}
+.main-header-item{
+    list-style:none;
+    display:inline-block;
+    border:2px solid green;
+    border-radius:8px;
+    background:rgb(129, 236, 129);
+
+}
+.main-header-item a{
+    text-decoration:none;
+    padding:2px;
+    font-weight:bold;
+    font-size:10px;
+}
+.main-header-item:hover{
+    background:white;
+    color:black;
+}
+.main-header-item-standard2{
+    background:rgb(228, 36, 78);
+    color:white;
+    border:2px solid rgb(228, 36, 78);
+    border-radius:9px;
+}
+
+
+
+.container {
+    padding: 16px;
+  }
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  .registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+  .registerbtn:hover {
+    opacity:1;
+  }
+  a {
+    color: dodgerblue;
+  }
+  .signin {
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+
+
+.four{
+    background:black;
+    height:51px;
+    position:fixed;
+    bottom:0px;
+    width:100%;
+}
+.four-items{
+    text-align:center;
+
+}
+.four-item a{
+    color:white;
+    font-weight:bold;
+    font-size:14px;
+    text-decoration:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(min-width:640px){
+    .main-header-brand{
+        padding:5px;
+        position:absolute;
+        top:5px;
+        }
+        .main-header-brand a{
+            text-decoration:none;
+            font-weight:bold;
+            font-size:22px;
+        
+        }
+        .main-header-brand a img{
+            height:42px;
+        }
+        .main-header{
+            background:rgb(41, 243, 41);
+            height:68px;
+            position:relative;
+            position:fixed;
+            top:0px;
+            width:100%;
+            padding:5px;
+        
+        }
+        main-header-items{
+            text-align:right;
+            position:absolute;
+            right:0px;
+            top:0px;
+            padding:5px;
+           
+        }
+        .main-header-item{
+            list-style:none;
+            display:inline-block;
+            border:2px solid green;
+            border-radius:8px;
+            background:rgb(129, 236, 129);
+        
+        }
+        .main-header-item a{
+            text-decoration:none;
+            padding:5px;
+            font-weight:bold;
+            font-size:22px;
+        }
+        .main-header-item:hover{
+            background:white;
+            color:black;
+        }
+        .main-header-item-standard2{
+            background:rgb(228, 36, 78);
+            color:white;
+            border:2px solid rgb(228, 36, 78);
+            border-radius:9px;
+        }
+
+    }
+
+    @media(min-width:640px){
+        .four{
+            background:black;
+            height:66px;
+            padding:1px;
+        }
+        .four-items{
+            text-align:center;
+         
+        
+        }
+        .four-item a{
+            color:white;
+            font-weight:bold;
+            font-size:24px;
+            text-decoration:none;
+        }
+        .four-item{
+            display:inline-block;
+            padding:12px;
+        }
+        
+        
+    }
